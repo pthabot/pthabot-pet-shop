@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="
+        sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <title>Pthabot Pet Shop</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Logo / Nama -->
+        <h1>Pthabot Pet Shop</h1>
+        <!-- List Menu -->
+        <nav>
+            <ul>
+                <li>
+                    <!-- HyperLink -->
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <!-- HyperLink -->
+                    <a href="#layanan">Layanan</a>
+                </li>
+                <li>
+                    <!-- HyperLink -->
+                    <a href="#kontak">Kontak</a>
+                </li>
+                <li>
+                    <!-- HyperLink -->
+                    <a href="#product">Product</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+    
+    <!-- Section Product -->
+    <section class="product" id="product">
+        <h2 class="section-title">PRODUCT</h2>
+        <div class="wrapper">
+            <div class="porto-card">
+                <a href="#" target="blank">
+                    <img src="https://images.unsplash.com/photo-1544568100-847a948585b9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80" alt="Card-1" title="Card-1">
+                    <h4 class="porto-title">Card-1</h4>
+                </a>
+            </div>
+            <div class="porto-card">
+                <a href="#" target="blank">
+                    <img src="https://images.unsplash.com/photo-1442291928580-fb5d0856a8f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80"
+                        alt="Card-2" title="Card-2">
+                    <h4 class="porto-title">Card-2</h4>
+                </a>
+            </div>
+            <div class="porto-card">
+                <a href="#" target="blank">
+                    <img src="https://images.unsplash.com/photo-1555169062-013468b47731?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                        alt="Card-3" title="Card-3">
+                    <h4 class="porto-title">Card-3</h4>
+                </a>
+            </div>
+            <div class="porto-card">
+                <a href="http://" target="blank">
+                    <img src="https://images.unsplash.com/photo-1425082661705-1834bfd09dca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80"
+                        alt="Card-4" title="Card-4">
+                    <h4 class="porto-title">Card-4</h4>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Kontak Saya -->
+    <section class="kontak" id="kontak">
+        <h2 class="section-title">KONTAK SAYA</h2>
+        <form class="kontak-box">
+            <div class="kontak-name wrapper">
+                <i class="fas fa-pencil-alt"></i>
+                <input type="text" name="nama pengontak" placeholder="Nama Anda">
+            </div>
+            <div class="kontak-email wrapper">
+                <i class="fas fa-envelope"></i>
+                <input type="text" name="email pengontak" placeholder="Email Anda">
+            </div>
+            <div class="kontak-pesan wrapper">
+                <i class="fas fa-pencil-alt"></i>
+                <textarea name="pesan pengontak" cols="30" rows="10" placeholder="Pesan Anda"></textarea>
+            </div>
+            <button type="submit" class="btn-kontak" onclick="kirimPesan()">
+                <i class="fas fa-envelope"></i>
+                Kirim
+            </button>
+        </form>
+    </section>
+
+    </main>
+    <!-- Footer -->
+    <footer>
+        <p>Pthabot Pet Shop</p>
+    </footer>
+
+</body>
